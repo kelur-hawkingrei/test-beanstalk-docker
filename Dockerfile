@@ -13,7 +13,7 @@
     # Bundle app source  
     ADD . /src  
     # Expose  
-    EXPOSE  999 
+    EXPOSE  5000
     RUN cd src
     # Run
     WORKDIR /src  
